@@ -1,9 +1,15 @@
 ### Notes
-The ID mapping seems to be different:
-https://stackoverflow.com/questions/70117899/getting-synsets-of-custom-hungarian-wordnet-dictionary-with-nltk
+ - The ID mapping seems to be different to other standard NLTK languages:
+  https://stackoverflow.com/questions/70117899/getting-synsets-of-custom-hungarian-wordnet-dictionary-with-nltk
 
-Scripts to process:
+ - Scripts to process:
 https://github.com/jankovicsandras/pywnxml (forked from https://github.com/ppke-nlpg/pywnxml)
+
+ - https://github.com/nytud/huwn
+
+ - wn-data-hun.tab is missing lots of words, e.g. "akksi" or "akku" are common synonyms for "04161515-n	hun:lemma	akkumulátor", but not found in wn-data-hun.tab
+ - wn-data-hun.tab probably can't do pluralization
+ - wn-data-hun.tab has some disconnect, e.g. "kutya", "vadászkutya" and "juhászkutya" are under 3 different IDs
 
 ----
 # Hungarian Wordnet (HuWN) / Magyar WordNet
