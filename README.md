@@ -1,3 +1,11 @@
+### Notes
+The ID mapping seems to be different:
+https://stackoverflow.com/questions/70117899/getting-synsets-of-custom-hungarian-wordnet-dictionary-with-nltk
+
+Scripts to process:
+https://github.com/jankovicsandras/pywnxml (forked from https://github.com/ppke-nlpg/pywnxml)
+
+----
 # Hungarian Wordnet (HuWN) / Magyar WordNet
 
 Maintainer: 
